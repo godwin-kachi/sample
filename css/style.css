@@ -1,0 +1,74 @@
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.nav {
+    width: 100%;
+    background-color: aqua;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav ul {
+    list-style:none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0 8px 0 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover {
+    background-color: white;
+}
+
+.introduction h2 {
+    text-align: center;
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.intro {
+    font-variant-caps: all-petite-caps;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: justify;
+}
+.intro-body {
+    text-align: justify;
+    font-family: cursive;
+}
+
+.introduction {
+    width: 50%;
+    float: left;
+}
+
+.selfie {
+    width: 50%;
+    float: right;
+}
+
+.selfie img {
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+/* BEGINNING OF ABOUT US PAGE */
+
+/* END OF ABOUT US PAGE */
+
+/* CONTACT US STYLES */
+
+/* END OF CONTACT US STYLES */
+
